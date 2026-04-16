@@ -1,7 +1,12 @@
-package main
+/*
+    Первая программа
+    на языке Go  
+*/
 
-import "fmt"
+package main    //объявление пакета
 
-func main() {
-    fmt.Println("Привет, Go!")
+import "fmt"    //подключаем функциональность пакета fmt
+
+func main() {   // определение функции
+    fmt.Println("Привет, Роман!")
 }
